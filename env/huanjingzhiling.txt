@@ -1,0 +1,18 @@
+ab
+// 查看所有环境
+conda env list
+
+激活环境
+conda activate env_name
+
+导出该环境依赖包
+conda env export > environment.yml 
+
+安装环境依赖包，需要输入yml文件的路径
+conda env create -f environment.yml
+
+导出依赖包
+pip freeze > requirements.txt
+
+安装依赖包
+pip install -r requirements.txt
