@@ -1,0 +1,6 @@
+   // 激活conda环境
+   运行 conda  // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+   // 当前路径
+   相对路径"cwd": "${fileDirname}"
+   权重下载
+   权重在自己百度网盘上
